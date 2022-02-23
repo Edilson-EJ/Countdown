@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <fieldset>
+                    <legend class="titulo"> Fórmulario de Inscrição</legend>
+        
+                        <br>
+                        <div class="campo">
+                            <input type="text" name="nome" class="user" required>
+                            <label for="nome">Nome completo</label>
+                        </div>
+            
+                        <div class="campo">
+                            <input type="email" name="email" class="user" required>
+                            <label for="email">Email</label>
+                        </div>
+            
+                        <div class="campo">
+                            <input type="tel" name="telefone" class="user" required>
+                            <label for="telefone">Telefone</label>
+                        </div>
+            
+                        <p>Sexo</p>
+                        <input type="radio" id="feminino" name="genero" value="feminino" required>
+                        <label for="feminino">Feminino</label>
+                        <br>
+                        <input type="radio" id="masculino" name="genero" value="masculino" required>
+                        <label for="masculino">Maculino</label>
+                        <br>
+                        <input type="radio" id="outro" name="genero" value="outro" required> 
+                        <label for="outro">Outro</label>
+                        <br><br>
+                        <label for="data_nascimento">Data Nascimento</label>
+                        <input type="date" name="data_nascimento" id="data_nascimento" required>
+                        <br>
+                        <div class="campo">
+                            <input type="text" name="cidade" id="cidade" class="user">
+                            <label for="cidade">Cidade</label>
+                        </div>
+                        <br>
+                        <div class="campo">
+                            <input type="text" name="estado" id="estado" class="user" required>
+                            <label for="estado">Estado</label>
+                        </div>
+                        <br>
+                        <div class="campo">
+                            <input type="text" name="endereco" id="endereco" class="user" required>
+                            <label for="endereco">Endereco</label>
+                        </div>
+        
+        
+                        <div class="submit">
+                            <input type="submit" >
+                        </div>
+                    
+            </fieldset>
+        </form>
+
+    </div>
+</body>
+</html>
